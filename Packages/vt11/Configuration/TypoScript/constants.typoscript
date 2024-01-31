@@ -1,1 +1,11 @@
 @import "EXT:vt11/Configuration/TypoScript/Constants/*.typoscript"
+
+vt11 {
+    rootPageId = 4
+
+    logoText = Science & Technology
+
+    logoFile = EXT:vt11/Resources/Public/Images/logo-no-background.png
+
+    logoHeight = 150
+}

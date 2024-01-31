@@ -1,5 +1,5 @@
 <?php
-class layout_Default_html_786892dfb614283133e89adebe14431f0965efcf extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
+class layout_Default_html_c5d0046dd6eebad9b4c75473f42545f2ec1781e8 extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
     public function getLayoutName(\TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface $renderingContext) {
         return (string)'';
     }
@@ -143,11 +143,26 @@ $output0 .= '
 			</section>
 
 			<!-- Footer -->
-			<footer id="footer">
-				<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a
-						href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.
-				</p>
-			</footer>
+			';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper
+$renderChildrenClosure10 = function() use ($renderingContext) {
+return NULL;
+};
+
+$arguments9 = [
+'section' => NULL,
+'partial' => 'Footer',
+'delegate' => NULL,
+'arguments' => $renderingContext->getVariableProvider()->getAll(),
+'optional' => false,
+'default' => NULL,
+'contentAs' => NULL,
+'debug' => true,
+];
+
+$output0 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments9, $renderChildrenClosure10, $renderingContext);
+
+$output0 .= '
 
 		</div>
 	</div>

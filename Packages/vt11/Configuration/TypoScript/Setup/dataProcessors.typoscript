@@ -7,4 +7,15 @@ page.10.dataProcessing {
         levels = 3
         titleField = nav_title // title
     }
+
+    ## Meta Menu
+    20 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
+    20 {
+        as = metaNav
+        special = directory
+        special.value = 16
+        levels = 1
+        titleField = nav_title // title
+    }
+    
 }

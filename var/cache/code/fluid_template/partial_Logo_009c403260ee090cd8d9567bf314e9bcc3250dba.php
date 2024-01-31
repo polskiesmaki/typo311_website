@@ -1,5 +1,5 @@
 <?php
-class partial_Logo_16363e26109a58c2cede493dd44b7eb1aa0a5928 extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
+class partial_Logo_009c403260ee090cd8d9567bf314e9bcc3250dba extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
     public function getLayoutName(\TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface $renderingContext) {
         return (string)'';
     }
@@ -38,12 +38,32 @@ $output3 = '';
 
 $output3 .= '
     ';
+// Rendering ViewHelper TYPO3Fluid\Fluid\ViewHelpers\IfViewHelper
+
+$array5 = [
+'0' => $renderingContext->getVariableProvider()->getByPath('settings.logoFile'),
+];
+
+$expression6 = function($context) {return TYPO3Fluid\Fluid\Core\Parser\BooleanParser::convertNodeToBoolean($context["node0"]);};
+
+$arguments4 = [
+'then' => NULL,
+'else' => NULL,
+'condition' => TYPO3Fluid\Fluid\Core\Parser\SyntaxTree\BooleanNode::convertToBoolean(
+    $expression6(TYPO3Fluid\Fluid\Core\Parser\SyntaxTree\BooleanNode::gatherContext($renderingContext, $array5)),
+    $renderingContext
+),
+'__then' => function() use ($renderingContext) {
+$output7 = '';
+
+$output7 .= '
+            ';
 // Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\ImageViewHelper
-$renderChildrenClosure5 = function() use ($renderingContext) {
+$renderChildrenClosure9 = function() use ($renderingContext) {
 return NULL;
 };
 
-$arguments4 = [
+$arguments8 = [
 'additionalAttributes' => NULL,
 'data' => NULL,
 'aria' => NULL,
@@ -56,20 +76,20 @@ $arguments4 = [
 'accesskey' => NULL,
 'tabindex' => NULL,
 'onclick' => NULL,
-'alt' => '',
+'alt' => $renderingContext->getVariableProvider()->getByPath('settings.logoText'),
 'ismap' => NULL,
 'longdesc' => NULL,
 'usemap' => NULL,
 'loading' => NULL,
 'decoding' => NULL,
-'src' => 'EXT:vt11/Resources/Public/Images/logo-no-background.png',
+'src' => $renderingContext->getVariableProvider()->getByPath('settings.logoFile'),
 'treatIdAsReference' => false,
 'image' => NULL,
 'crop' => NULL,
 'cropVariant' => 'default',
 'fileExtension' => NULL,
 'width' => NULL,
-'height' => NULL,
+'height' => $renderingContext->getVariableProvider()->getByPath('settings.logoHeight'),
 'minWidth' => NULL,
 'minHeight' => NULL,
 'maxWidth' => NULL,
@@ -77,7 +97,28 @@ $arguments4 = [
 'absolute' => false,
 ];
 
-$output3 .= TYPO3\CMS\Fluid\ViewHelpers\ImageViewHelper::renderStatic($arguments4, $renderChildrenClosure5, $renderingContext);
+$output7 .= TYPO3\CMS\Fluid\ViewHelpers\ImageViewHelper::renderStatic($arguments8, $renderChildrenClosure9, $renderingContext);
+
+$output7 .= '
+        ';
+return $output7;
+},
+'__else' => function() use ($renderingContext) {
+$output10 = '';
+
+$output10 .= '
+            ';
+
+$output10 .= call_user_func_array( function ($var) { return (is_string($var) || (is_object($var) && method_exists($var, '__toString')) ? htmlspecialchars((string) $var, ENT_QUOTES) : $var); }, [$renderingContext->getVariableProvider()->getByPath('settings.logoText')]);
+
+$output10 .= '
+        ';
+return $output10;
+},
+];
+
+$output3 .= TYPO3Fluid\Fluid\ViewHelpers\IfViewHelper::renderStatic($arguments4, static fn() => '', $renderingContext)
+;
 
 $output3 .= '
 ';
@@ -93,13 +134,13 @@ $arguments1 = [
 'id' => NULL,
 'lang' => NULL,
 'style' => NULL,
-'title' => 'to Homepage',
+'title' => $renderingContext->getVariableProvider()->getByPath('settings.logoText'),
 'accesskey' => NULL,
 'tabindex' => NULL,
 'onclick' => NULL,
 'target' => NULL,
 'rel' => NULL,
-'pageUid' => 4,
+'pageUid' => $renderingContext->getVariableProvider()->getByPath('settings.rootPageId'),
 'pageType' => NULL,
 'noCache' => NULL,
 'language' => NULL,

@@ -7,6 +7,7 @@ page {
 
     includeCSS {
         main = EXT:vt11/Resources/Public/Css/main.css
+        custom = EXT:vt11/Resources/Public/Css/custom.css
     }
 
     includeJSFooter {
@@ -37,5 +38,12 @@ page.10 {
             #Inhalte in umgekehrter Reihenfolge anzeigen in der Sidebar wenn es Inhalte auf der Seite gibt
             slide.collectReverse = 1
         }
+    }
+
+    settings {
+        rootPageId = {$vt11.rootPageId}
+        logoText = {$vt11.logoText}
+        logoFile = {$vt11.logoFile}
+        logoHeight = {$vt11.logoHeight}
     }
 }
