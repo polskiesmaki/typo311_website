@@ -28,5 +28,62 @@ return array (
     array (
     ),
   ),
+  'typo311website' => 
+  array (
+    'base' => 'https://typo311website.ddev.site/',
+    'languages' => 
+    array (
+      0 => 
+      array (
+        'title' => 'English',
+        'enabled' => true,
+        'languageId' => 0,
+        'base' => '/',
+        'typo3Language' => 'default',
+        'locale' => 'en_US.UTF-8',
+        'iso-639-1' => 'en',
+        'navigationTitle' => 'English',
+        'hreflang' => 'en-us',
+        'direction' => 'ltr',
+        'flag' => 'us',
+      ),
+      1 => 
+      array (
+        'title' => 'Deutsch',
+        'enabled' => true,
+        'base' => '/',
+        'typo3Language' => 'de',
+        'locale' => 'de_DE',
+        'iso-639-1' => 'de',
+        'websiteTitle' => '',
+        'navigationTitle' => 'DE',
+        'hreflang' => 'de-de',
+        'direction' => 'ltr',
+        'fallbackType' => 'strict',
+        'fallbacks' => '',
+        'flag' => 'de',
+        'languageId' => 1,
+      ),
+      2 => 
+      array (
+        'title' => 'Polski',
+        'enabled' => true,
+        'base' => '/',
+        'typo3Language' => 'pl',
+        'locale' => 'pl_PL',
+        'iso-639-1' => 'pl',
+        'websiteTitle' => '',
+        'navigationTitle' => 'PL',
+        'hreflang' => 'pl-pl',
+        'direction' => 'ltr',
+        'fallbackType' => 'strict',
+        'fallbacks' => '',
+        'flag' => 'pl',
+        'languageId' => 2,
+      ),
+    ),
+    'rootPageId' => 4,
+    'websiteTitle' => 'Survival',
+  ),
 );
 #
