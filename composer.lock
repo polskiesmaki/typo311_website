@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "77d799d5db8de2f397218d83826db234",
+    "content-hash": "0648a8ddbaaa6fc138df601858ea8f83",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -843,6 +843,37 @@
                 "source": "https://github.com/darylldoyle/svg-sanitizer/tree/0.15.4"
             },
             "time": "2022-02-21T09:13:59+00:00"
+        },
+        {
+            "name": "glowacki/vt11",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "./Packages/vt11",
+                "reference": "b5b786b672a5219660ccd62e901847caffcb5d98"
+            },
+            "require": {
+                "typo3/cms-fluid-styled-content": "^11.5"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "vt11"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Dennis Glowacki",
+                    "email": "dennis.glowacki@gmx.de"
+                }
+            ],
+            "description": "Template",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "guzzlehttp/guzzle",

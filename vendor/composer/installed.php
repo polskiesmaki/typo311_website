@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '__root__',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'befeb46d7ee3f68699f46f566ee8b599530f88a6',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'befeb46d7ee3f68699f46f566ee8b599530f88a6',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -130,6 +130,15 @@
             'reference' => 'e50b83a2f1f296ca61394fe88fbfe3e896a84cf4',
             'type' => 'library',
             'install_path' => __DIR__ . '/../enshrined/svg-sanitize',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'glowacki/vt11' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'reference' => 'b5b786b672a5219660ccd62e901847caffcb5d98',
+            'type' => 'typo3-cms-extension',
+            'install_path' => __DIR__ . '/../../public/typo3conf/ext/vt11',
             'aliases' => array(),
             'dev_requirement' => false,
         ),

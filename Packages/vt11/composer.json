@@ -1,0 +1,21 @@
+{
+    "name": "glowacki/vt11",
+    "description": "Template",
+    "type": "typo3-cms-extension",
+    "license": "GPL-2.0-or-later",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Dennis Glowacki",
+            "email": "dennis.glowacki@gmx.de"
+        }
+    ],
+    "require": {
+        "typo3/cms-fluid-styled-content": "^11.5"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "vt11"
+        }
+    }
+}

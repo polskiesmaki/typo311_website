@@ -1,7 +1,7 @@
 <?php
 return [
     'BE' => [
-        'debug' => false,
+        'debug' => true,
         'explicitADmode' => 'explicitAllow',
         'installToolPassword' => '$argon2i$v=19$m=65536,t=16,p=1$Q1A3Nnhoai4yVlEuQ2l3UQ$nzYLHV0Pupx/8757Fzo8uUGIYAi20Ix3u+knpdd8RDc',
         'passwordHashing' => [
@@ -70,7 +70,7 @@ return [
         'cacheHash' => [
             'enforceValidation' => true,
         ],
-        'debug' => false,
+        'debug' => true,
         'disableNoCacheParameter' => true,
         'passwordHashing' => [
             'className' => 'TYPO3\\CMS\\Core\\Crypto\\PasswordHashing\\Argon2iPasswordHash',
@@ -93,7 +93,7 @@ return [
                     'writerConfiguration' => [
                         'notice' => [
                             'TYPO3\CMS\Core\Log\Writer\FileWriter' => [
-                                'disabled' => true,
+                                'disabled' => false,
                             ],
                         ],
                     ],
@@ -141,10 +141,10 @@ return [
                 ],
             ],
         ],
-        'devIPmask' => '',
-        'displayErrors' => 0,
+        'devIPmask' => '*',
+        'displayErrors' => 1,
         'encryptionKey' => '820837ed2af21c7e7ca19b506dcc2483d1f40fc602c8f0a5a6bd921a708ebb26cdd4cdf81a61a3352ae4c3b9eb15f3ff',
-        'exceptionalErrors' => 4096,
+        'exceptionalErrors' => 12290,
         'features' => [
             'yamlImportsFollowDeclarationOrder' => true,
         ],

@@ -36,12 +36,19 @@
         "typo3/cms-viewpage": "^11.5",
         "typo3/cms-workspaces": "^11.5",
         "typo3/minimal": "^11",
-        "helhum/typo3-console": "^7.1"
+        "helhum/typo3-console": "^7.1",
+        "glowacki/vt11": "^1.0"
     },
     "config": {
         "allow-plugins": {
             "typo3/class-alias-loader": true,
             "typo3/cms-composer-installers": true
+        }
+    },
+    "repositories": {
+        "vt11": {
+            "type": "path",
+            "url": "./Packages/vt11"
         }
     }
 }
