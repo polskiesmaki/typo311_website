@@ -84,7 +84,7 @@ return array (
       ),
     ),
     'rootPageId' => 4,
-    'websiteTitle' => 'Survival',
+    'websiteTitle' => 'Science & Technology',
   ),
 );
 #

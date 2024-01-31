@@ -1,5 +1,5 @@
 <?php
-class layout_Default_html_717682327b717371d0d239484a9568ec535e2f91 extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
+class layout_Default_html_786892dfb614283133e89adebe14431f0965efcf extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
     public function getLayoutName(\TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface $renderingContext) {
         return (string)'';
     }
@@ -39,7 +39,26 @@ $output0 .= '
 
 			<!-- Header -->
 			<header id="header">
-				<a href="index.html" class="logo"><strong>Editorial</strong> by HTML5 UP</a>
+				';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper
+$renderChildrenClosure2 = function() use ($renderingContext) {
+return NULL;
+};
+
+$arguments1 = [
+'section' => NULL,
+'partial' => 'Logo',
+'delegate' => NULL,
+'arguments' => $renderingContext->getVariableProvider()->getAll(),
+'optional' => false,
+'default' => NULL,
+'contentAs' => NULL,
+'debug' => true,
+];
+
+$output0 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments1, $renderChildrenClosure2, $renderingContext);
+
+$output0 .= '
 				<ul class="icons">
 					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
@@ -51,11 +70,11 @@ $output0 .= '
 
 			';
 // Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper
-$renderChildrenClosure2 = function() use ($renderingContext) {
+$renderChildrenClosure4 = function() use ($renderingContext) {
 return NULL;
 };
 
-$arguments1 = [
+$arguments3 = [
 'section' => 'Main',
 'partial' => NULL,
 'delegate' => NULL,
@@ -66,7 +85,7 @@ $arguments1 = [
 'debug' => true,
 ];
 
-$output0 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments1, $renderChildrenClosure2, $renderingContext);
+$output0 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments3, $renderChildrenClosure4, $renderingContext);
 
 $output0 .= '
 
@@ -87,11 +106,11 @@ $output0 .= '
 			<!-- Menu -->
 			';
 // Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper
-$renderChildrenClosure4 = function() use ($renderingContext) {
+$renderChildrenClosure6 = function() use ($renderingContext) {
 return NULL;
 };
 
-$arguments3 = [
+$arguments5 = [
 'section' => NULL,
 'partial' => 'MainMenu',
 'delegate' => NULL,
@@ -102,7 +121,7 @@ $arguments3 = [
 'debug' => true,
 ];
 
-$output0 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments3, $renderChildrenClosure4, $renderingContext);
+$output0 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments5, $renderChildrenClosure6, $renderingContext);
 
 $output0 .= '
 
@@ -110,15 +129,15 @@ $output0 .= '
 			<section>
 				';
 // Rendering ViewHelper TYPO3Fluid\Fluid\ViewHelpers\Format\RawViewHelper
-$renderChildrenClosure6 = function() use ($renderingContext) {
+$renderChildrenClosure8 = function() use ($renderingContext) {
 return $renderingContext->getVariableProvider()->getByPath('content1');
 };
 
-$arguments5 = [
+$arguments7 = [
 'value' => NULL,
 ];
 
-$output0 .= isset($arguments5['value']) ? $arguments5['value'] : $renderChildrenClosure6();
+$output0 .= isset($arguments7['value']) ? $arguments7['value'] : $renderChildrenClosure8();
 
 $output0 .= '
 			</section>

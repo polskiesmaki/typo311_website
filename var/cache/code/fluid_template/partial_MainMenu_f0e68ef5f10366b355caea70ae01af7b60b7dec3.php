@@ -1,5 +1,5 @@
 <?php
-class partial_MainMenu_1ddc0a2154e8f03698bd7df27a88b59422eb41de extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
+class partial_MainMenu_f0e68ef5f10366b355caea70ae01af7b60b7dec3 extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
     public function getLayoutName(\TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface $renderingContext) {
         return (string)'';
     }
@@ -205,41 +205,23 @@ $output17 .= '
 <nav id="menu">
     <header class="major">
         <h2>
-            ';
-// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\TranslateViewHelper
-$renderChildrenClosure19 = function() use ($renderingContext) {
-return NULL;
-};
-
-$arguments18 = [
-'key' => 'LLL:EXT:vt11/Resources/Private/Language/locallang.xlf:menu',
-'id' => NULL,
-'default' => NULL,
-'arguments' => NULL,
-'extensionName' => NULL,
-'languageKey' => NULL,
-'alternativeLanguageKeys' => NULL,
-];
-
-$output17 .= call_user_func_array( function ($var) { return (is_string($var) || (is_object($var) && method_exists($var, '__toString')) ? htmlspecialchars((string) $var, ENT_QUOTES) : $var); }, [TYPO3\CMS\Fluid\ViewHelpers\TranslateViewHelper::renderStatic($arguments18, $renderChildrenClosure19, $renderingContext)]);
-
-$output17 .= '
+            Menu
         </h2>
     </header>
     <ul>
         ';
 // Rendering ViewHelper TYPO3Fluid\Fluid\ViewHelpers\ForViewHelper
-$renderChildrenClosure21 = function() use ($renderingContext) {
-$output22 = '';
+$renderChildrenClosure19 = function() use ($renderingContext) {
+$output20 = '';
 
-$output22 .= '
+$output20 .= '
             ';
 // Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper
-$renderChildrenClosure24 = function() use ($renderingContext) {
+$renderChildrenClosure22 = function() use ($renderingContext) {
 return NULL;
 };
 
-$arguments23 = [
+$arguments21 = [
 'section' => 'link',
 'partial' => NULL,
 'delegate' => NULL,
@@ -250,14 +232,14 @@ $arguments23 = [
 'debug' => true,
 ];
 
-$output22 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments23, $renderChildrenClosure24, $renderingContext);
+$output20 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments21, $renderChildrenClosure22, $renderingContext);
 
-$output22 .= '
+$output20 .= '
         ';
-return $output22;
+return $output20;
 };
 
-$arguments20 = [
+$arguments18 = [
 'each' => $renderingContext->getVariableProvider()->getByPath('mainMenu'),
 'as' => 'item',
 'key' => NULL,
@@ -265,7 +247,7 @@ $arguments20 = [
 'iteration' => NULL,
 ];
 
-$output17 .= TYPO3Fluid\Fluid\ViewHelpers\ForViewHelper::renderStatic($arguments20, $renderChildrenClosure21, $renderingContext);
+$output17 .= TYPO3Fluid\Fluid\ViewHelpers\ForViewHelper::renderStatic($arguments18, $renderChildrenClosure19, $renderingContext);
 
 $output17 .= '
     </ul>
@@ -279,6 +261,12 @@ $output17 .= '
                 submenu.style.display = \'none\';
             }
             submenu.style.display = submenu.style.display === \'none\' ? \'block\' : \'none\';
+
+            // Hide all sub-submenus
+            var subSubmenus = submenu.querySelectorAll(\'ul\');
+            subSubmenus.forEach(function (subSubmenu) {
+                subSubmenu.style.display = \'none\';
+            });
         });
     });
 </script>
