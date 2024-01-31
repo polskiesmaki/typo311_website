@@ -1,5 +1,5 @@
 <?php
-class layout_Default_html_c5d0046dd6eebad9b4c75473f42545f2ec1781e8 extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
+class layout_Default_html_b35142ecfd2debc6f33a2b9cb6b3242f9d8fd37a extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
     public function getLayoutName(\TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface $renderingContext) {
         return (string)'';
     }
@@ -59,6 +59,26 @@ $arguments1 = [
 $output0 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments1, $renderChildrenClosure2, $renderingContext);
 
 $output0 .= '
+				';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper
+$renderChildrenClosure4 = function() use ($renderingContext) {
+return NULL;
+};
+
+$arguments3 = [
+'section' => NULL,
+'partial' => 'LanguageMenu',
+'delegate' => NULL,
+'arguments' => $renderingContext->getVariableProvider()->getAll(),
+'optional' => false,
+'default' => NULL,
+'contentAs' => NULL,
+'debug' => true,
+];
+
+$output0 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments3, $renderChildrenClosure4, $renderingContext);
+
+$output0 .= '
 				<ul class="icons">
 					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
@@ -70,11 +90,11 @@ $output0 .= '
 
 			';
 // Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper
-$renderChildrenClosure4 = function() use ($renderingContext) {
+$renderChildrenClosure6 = function() use ($renderingContext) {
 return NULL;
 };
 
-$arguments3 = [
+$arguments5 = [
 'section' => 'Main',
 'partial' => NULL,
 'delegate' => NULL,
@@ -85,7 +105,7 @@ $arguments3 = [
 'debug' => true,
 ];
 
-$output0 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments3, $renderChildrenClosure4, $renderingContext);
+$output0 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments5, $renderChildrenClosure6, $renderingContext);
 
 $output0 .= '
 
@@ -106,11 +126,11 @@ $output0 .= '
 			<!-- Menu -->
 			';
 // Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper
-$renderChildrenClosure6 = function() use ($renderingContext) {
+$renderChildrenClosure8 = function() use ($renderingContext) {
 return NULL;
 };
 
-$arguments5 = [
+$arguments7 = [
 'section' => NULL,
 'partial' => 'MainMenu',
 'delegate' => NULL,
@@ -121,7 +141,7 @@ $arguments5 = [
 'debug' => true,
 ];
 
-$output0 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments5, $renderChildrenClosure6, $renderingContext);
+$output0 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments7, $renderChildrenClosure8, $renderingContext);
 
 $output0 .= '
 
@@ -129,15 +149,15 @@ $output0 .= '
 			<section>
 				';
 // Rendering ViewHelper TYPO3Fluid\Fluid\ViewHelpers\Format\RawViewHelper
-$renderChildrenClosure8 = function() use ($renderingContext) {
+$renderChildrenClosure10 = function() use ($renderingContext) {
 return $renderingContext->getVariableProvider()->getByPath('content1');
 };
 
-$arguments7 = [
+$arguments9 = [
 'value' => NULL,
 ];
 
-$output0 .= isset($arguments7['value']) ? $arguments7['value'] : $renderChildrenClosure8();
+$output0 .= isset($arguments9['value']) ? $arguments9['value'] : $renderChildrenClosure10();
 
 $output0 .= '
 			</section>
@@ -145,11 +165,11 @@ $output0 .= '
 			<!-- Footer -->
 			';
 // Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper
-$renderChildrenClosure10 = function() use ($renderingContext) {
+$renderChildrenClosure12 = function() use ($renderingContext) {
 return NULL;
 };
 
-$arguments9 = [
+$arguments11 = [
 'section' => NULL,
 'partial' => 'Footer',
 'delegate' => NULL,
@@ -160,7 +180,7 @@ $arguments9 = [
 'debug' => true,
 ];
 
-$output0 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments9, $renderChildrenClosure10, $renderingContext);
+$output0 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments11, $renderChildrenClosure12, $renderingContext);
 
 $output0 .= '
 

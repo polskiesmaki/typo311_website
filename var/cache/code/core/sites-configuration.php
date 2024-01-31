@@ -42,7 +42,7 @@ return array (
         'typo3Language' => 'default',
         'locale' => 'en_US.UTF-8',
         'iso-639-1' => 'en',
-        'navigationTitle' => 'English',
+        'navigationTitle' => 'EN',
         'hreflang' => 'en-us',
         'direction' => 'ltr',
         'flag' => 'us',
