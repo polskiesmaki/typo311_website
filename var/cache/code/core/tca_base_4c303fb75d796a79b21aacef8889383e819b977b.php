@@ -4428,7 +4428,7 @@ return array (
             'type' => 'input',
             'renderType' => 'inputDateTime',
             'eval' => 'date,int',
-            'default' => 1706719852,
+            'default' => 1706721977,
           ),
         ),
         'content_modification_date' => 
@@ -4442,7 +4442,7 @@ return array (
             'type' => 'input',
             'renderType' => 'inputDateTime',
             'eval' => 'date,int',
-            'default' => 1706719852,
+            'default' => 1706721977,
           ),
         ),
         'note' => 
@@ -8463,6 +8463,11 @@ return array (
               array (
                 0 => 'Indexed Search (indexed_search)',
                 1 => 'EXT:indexed_search/Configuration/TypoScript',
+              ),
+              5 => 
+              array (
+                0 => 'MY Sitepackage (vt11)',
+                1 => 'EXT:vt11/Configuration/TypoScript/',
               ),
             ),
             'softref' => 'ext_fileref',

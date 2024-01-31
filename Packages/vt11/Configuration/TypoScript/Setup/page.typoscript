@@ -1,0 +1,8 @@
+page = PAGE
+
+page.10 = FLUIDTEMPLATE
+page.10 {
+    layoutRootPath = EXT:vt11/Resources/Private/Layouts/
+    partialRootPath = EXT:vt11/Resources/Private/Partials/
+    file = EXT:vt11/Resources/Private/Templates/Default.html
+}
