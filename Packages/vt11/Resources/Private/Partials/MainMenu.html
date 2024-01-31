@@ -12,7 +12,24 @@
         </f:for>
     </ul>
 </nav>
+<script>
+    // Your JavaScript code
+    document.querySelectorAll('.opener').forEach(function (opener) {
+        opener.addEventListener('click', function () {
+            var submenu = this.nextElementSibling;
+            if (!submenu.style.display) {
+                submenu.style.display = 'none';
+            }
+            submenu.style.display = submenu.style.display === 'none' ? 'block' : 'none';
 
+            // Hide all sub-submenus
+            var subSubmenus = submenu.querySelectorAll('ul');
+            subSubmenus.forEach(function (subSubmenu) {
+                subSubmenu.style.display = 'none';
+            });
+        });
+    });
+</script>
 <f:section name="link">
     <li>
         <f:if condition="{item.children}">

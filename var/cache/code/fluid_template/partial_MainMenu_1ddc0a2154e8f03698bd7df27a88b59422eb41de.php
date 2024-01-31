@@ -1,5 +1,5 @@
 <?php
-class partial_MainMenu_a3257dc07cc31c4ad2f967a4d1ace904c47b649f extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
+class partial_MainMenu_1ddc0a2154e8f03698bd7df27a88b59422eb41de extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
     public function getLayoutName(\TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface $renderingContext) {
         return (string)'';
     }
@@ -270,7 +270,18 @@ $output17 .= TYPO3Fluid\Fluid\ViewHelpers\ForViewHelper::renderStatic($arguments
 $output17 .= '
     </ul>
 </nav>
-
+<script>
+    // Your JavaScript code
+    document.querySelectorAll(\'.opener\').forEach(function (opener) {
+        opener.addEventListener(\'click\', function () {
+            var submenu = this.nextElementSibling;
+            if (!submenu.style.display) {
+                submenu.style.display = \'none\';
+            }
+            submenu.style.display = submenu.style.display === \'none\' ? \'block\' : \'none\';
+        });
+    });
+</script>
 ';
 
 $output17 .= '';
