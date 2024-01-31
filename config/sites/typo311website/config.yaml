@@ -12,14 +12,15 @@ languages:
     hreflang: en-us
     direction: ltr
     flag: us
+    websiteTitle: ''
   -
     title: Deutsch
     enabled: true
-    base: /
+    base: /de/
     typo3Language: de
     locale: de_DE
     iso-639-1: de
-    websiteTitle: ''
+    websiteTitle: 'Wissenschaft & Technologie'
     navigationTitle: DE
     hreflang: de-de
     direction: ltr
@@ -30,11 +31,11 @@ languages:
   -
     title: Polski
     enabled: true
-    base: /
+    base: /pl/
     typo3Language: pl
     locale: pl_PL
     iso-639-1: pl
-    websiteTitle: ''
+    websiteTitle: 'Nauka i Technologia'
     navigationTitle: PL
     hreflang: pl-pl
     direction: ltr
