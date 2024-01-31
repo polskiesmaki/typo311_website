@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:core/Resources/Private/Language/locallang_csh_pages.xlf" date="2011-10-17T20:22:32Z" product-name="context_help" target-language="pl">
+    <header/>
+    <body>
+      <trans-unit id="layout.description" resname="layout.description" approved="yes">
+        <source>The Frontend Layout can change the way a page design appears.</source>
+        <target state="final">Układ Front-end może zmienić sposób wyglądania strony.</target>
+      </trans-unit>
+      <trans-unit id="endtime.description" resname="endtime.description" approved="yes">
+        <source>The Expiration Date specifies when the page will no longer be visible online.</source>
+        <target state="final">Data wygaśnięcia określa, kiedy strona nie będzie już widoczna online.</target>
+      </trans-unit>
+      <trans-unit id="endtime.syntax" resname="endtime.syntax" approved="yes">
+        <source>See Page / Publication Date (click below)</source>
+        <target state="final">Zobacz stronę / Datę publikacji (kliknij poniżej)</target>
+      </trans-unit>
+      <trans-unit id="author.description" resname="author.description" approved="yes">
+        <source>Enter the page author's name.</source>
+        <target state="final">Wprowadź dane autora strony.</target>
+      </trans-unit>
+      <trans-unit id="subtitle.description" resname="subtitle.description" approved="yes">
+        <source>Enter a subtitle if needed.</source>
+        <target state="final">Podaj podtytuł jeśli jest potrzebny.</target>
+      </trans-unit>
+      <trans-unit id="newUntil.syntax" resname="newUntil.syntax" approved="yes">
+        <source>See Page / Publication Date (click below)</source>
+        <target state="final">Zobacz stronę / Datę publikacji (kliknij poniżej)</target>
+      </trans-unit>
+      <trans-unit id="lastUpdated.description" resname="lastUpdated.description" approved="yes">
+        <source>Enter the date and time of the most recent update to this page.</source>
+        <target state="final">Wprowadź datę i godzinę ostatniej aktualizacji na tej stronie.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:core/Resources/Private/Language/locallang_csh_be_users.xlf" date="2011-10-17T20:22:33Z" product-name="lang" target-language="pl">
+    <header/>
+    <body>
+      <trans-unit id="usergroup.description" resname="usergroup.description" approved="yes">
+        <source>Assign backend user groups to the user.</source>
+        <target state="final">Przypisz grupy użytkowników backendu do użytkownika.</target>
+      </trans-unit>
+      <trans-unit id="fileoper_perms.description" resname="fileoper_perms.description" approved="yes">
+        <source>Select file operation permissions for the user.</source>
+        <target state="final">Wybierz uprawnienia do operacji na plikach dla użytkownika.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
