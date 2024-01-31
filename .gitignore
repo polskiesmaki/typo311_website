@@ -1,0 +1,9 @@
+.idea/
+
+/var/*
+!/var/labels
+/vendor/*
+/public/index.php
+/public/typo3/*
+/public/typo3conf/ext/*
+!/web/typo3conf/ext/vt11
