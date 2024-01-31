@@ -1,8 +1,41 @@
 page = PAGE
 
+page {
+    meta {
+        viewport = width=device-width, initial-scale=1, user-scalable=no
+    }
+
+    includeCSS {
+        main = EXT:vt11/Resources/Public/Css/main.css
+    }
+
+    includeJSFooter {
+        jquery = EXT:vt11/Resources/Public/JavaScript/jquery.min.js
+        browser = EXT:vt11/Resources/Public/JavaScript/browser.min.js
+        breakpoints = EXT:vt11/Resources/Public/JavaScript/breakpoints.min.js
+        util = EXT:vt11/Resources/Public/JavaScript/util.js
+        main = EXT:vt11/Resources/Public/JavaScript/main.js
+
+    }
+}
+
+
 page.10 = FLUIDTEMPLATE
 page.10 {
     layoutRootPath = EXT:vt11/Resources/Private/Layouts/
     partialRootPath = EXT:vt11/Resources/Private/Partials/
     file = EXT:vt11/Resources/Private/Templates/Default.html
+
+    variables {
+        content0 < styles.content.get
+
+        content1 < styles.content.get
+        content1 {
+            select.where = colPos = 1
+            slide = -1
+            slide.collect = -1
+            #Inhalte in umgekehrter Reihenfolge anzeigen in der Sidebar wenn es Inhalte auf der Seite gibt
+            slide.collectReverse = 1
+        }
+    }
 }

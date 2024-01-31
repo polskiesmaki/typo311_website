@@ -2233,6 +2233,11 @@ return array (
             'size' => 10,
             'items' => 
             array (
+              0 => 
+              array (
+                0 => 'Default Backendlayouts (vt11)',
+                1 => 'EXT:vt11/Configuration/TSconfig/BackendLayouts.tsconfig',
+              ),
             ),
             'softref' => 'ext_fileref',
           ),
@@ -4428,7 +4433,7 @@ return array (
             'type' => 'input',
             'renderType' => 'inputDateTime',
             'eval' => 'date,int',
-            'default' => 1706721977,
+            'default' => 1706725871,
           ),
         ),
         'content_modification_date' => 
@@ -4442,7 +4447,7 @@ return array (
             'type' => 'input',
             'renderType' => 'inputDateTime',
             'eval' => 'date,int',
-            'default' => 1706721977,
+            'default' => 1706725871,
           ),
         ),
         'note' => 
