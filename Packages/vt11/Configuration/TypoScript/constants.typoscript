@@ -7,5 +7,9 @@ vt11 {
 
     logoFile = EXT:vt11/Resources/Public/Images/logo-no-background.png
 
+    searchPluginId = 30
+    searchTargetPid = 33
+    searchRootPidList = 4
+
     logoHeight = 150
 }

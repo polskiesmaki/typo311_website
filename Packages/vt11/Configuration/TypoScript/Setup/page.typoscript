@@ -47,5 +47,6 @@ page.10 {
         logoText = {$vt11.logoText}
         logoFile = {$vt11.logoFile}
         logoHeight = {$vt11.logoHeight}
+        searchTargetPid = {$vt11.searchTargetPid}
     }
 }

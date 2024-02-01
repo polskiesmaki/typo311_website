@@ -1,5 +1,5 @@
 <?php
-class partial_DropIn_After_All_bdd871d48b14a21e6204a9f3fcf40223f10a2f22 extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
+class Search_action_form_36c375badf4e4e29124e1a1943bfe138c62deed7 extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
     public function getLayoutName(\TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface $renderingContext) {
         return (string)'';
     }
@@ -31,8 +31,23 @@ public function render(\TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterfac
 
 $output0 .= '
 ';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper
+$renderChildrenClosure2 = function() use ($renderingContext) {
+return NULL;
+};
 
-$output0 .= '';
+$arguments1 = [
+'section' => NULL,
+'partial' => 'Form',
+'delegate' => NULL,
+'arguments' => $renderingContext->getVariableProvider()->getAll(),
+'optional' => false,
+'default' => NULL,
+'contentAs' => NULL,
+'debug' => true,
+];
+
+$output0 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments1, $renderChildrenClosure2, $renderingContext);
 
 $output0 .= '
 

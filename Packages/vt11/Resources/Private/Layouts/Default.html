@@ -12,8 +12,9 @@
 				<f:render partial="LanguageMenu" arguments="{_all}" />
 			</header>
 
+			<!--TYPO3SEARCH_begin-->
 			<f:render section="Main" />
-
+			<!--TYPO3SEARCH_end-->
 		</div>
 	</div>
 
@@ -22,11 +23,18 @@
 		<div class="inner">
 
 			<!-- Search -->
-			<section id="search" class="alt">
-				<form method="post" action="#">
-					<input type="text" name="query" id="query" placeholder="Search" />
-				</form>
-			</section>
+			<f:if condition="{data.uid} != {settings.searchTargetPid}">
+				<f:cObject typoscriptObjectPath="lib.searchField" />
+			</f:if>
+
+			<f:comment>
+				<section id="search" class="alt">
+					<form method="post" action="#">
+						<input type="text" name="query" id="query" placeholder="Search" />
+					</form>
+				</section>
+			</f:comment>
+
 
 			<!-- Menu -->
 			<f:render partial="MainMenu" arguments="{_all}" />
