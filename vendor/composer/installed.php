@@ -3,7 +3,7 @@
         'name' => '__root__',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'befeb46d7ee3f68699f46f566ee8b599530f88a6',
+        'reference' => '83049a924be3a23505569b681aa24184de92faec',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         '__root__' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'befeb46d7ee3f68699f46f566ee8b599530f88a6',
+            'reference' => '83049a924be3a23505569b681aa24184de92faec',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -130,6 +130,15 @@
             'reference' => 'e50b83a2f1f296ca61394fe88fbfe3e896a84cf4',
             'type' => 'library',
             'install_path' => __DIR__ . '/../enshrined/svg-sanitize',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'georgringer/news' => array(
+            'pretty_version' => '11.3.0',
+            'version' => '11.3.0.0',
+            'reference' => '7e1fd9ba1a9a7886e655b92e9790a1688e8df00f',
+            'type' => 'typo3-cms-extension',
+            'install_path' => __DIR__ . '/../../public/typo3conf/ext/news',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -756,6 +765,12 @@
             'install_path' => __DIR__ . '/../symfony/yaml',
             'aliases' => array(),
             'dev_requirement' => false,
+        ),
+        'typo3-ter/news' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '11.3.0',
+            ),
         ),
         'typo3-ter/typo3-console' => array(
             'dev_requirement' => false,

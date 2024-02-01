@@ -150,6 +150,7 @@ class ComposerStaticInitbf68f52c31af5abdc1ea93f26c52e759
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
+            'GeorgRinger\\News\\' => 17,
         ),
         'E' => 
         array (
@@ -555,6 +556,10 @@ class ComposerStaticInitbf68f52c31af5abdc1ea93f26c52e759
         'GuzzleHttp\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
+        'GeorgRinger\\News\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/public/typo3conf/ext/news/Classes',
         ),
         'ErrorReporting\\' => 
         array (
