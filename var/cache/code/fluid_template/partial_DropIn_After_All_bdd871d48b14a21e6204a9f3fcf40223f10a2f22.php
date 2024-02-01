@@ -21,6 +21,10 @@ class partial_DropIn_After_All_bdd871d48b14a21e6204a9f3fcf40223f10a2f22 extends 
   array (
     0 => 'TYPO3\\CMS\\Form\\ViewHelpers',
   ),
+  'ce' => 
+  array (
+    0 => 'TYPO3\\CMS\\FluidStyledContent\\ViewHelpers',
+  ),
 ));
     }
     /**
