@@ -1,0 +1,28 @@
+TCEFORM {
+    tt_content {
+        header_layout {
+            altLabels {
+                1 = h1 - Site Title
+                2 = h2 - Site Slogan
+                3 = h3 - Caption 3 
+                4 = h4 - Caption 4
+                5 = h5 - Caption 5
+            }
+        }
+        frame_class {
+            addItems {
+                100 = Underline Caption
+            }
+        }
+        table_class {
+            addItems {
+                alt = Alternate
+            }
+        }
+    }
+}
+
+TCEMAIN.permissions {
+    group = show,editcontent,edit,new,delete
+    groupid = 1
+}

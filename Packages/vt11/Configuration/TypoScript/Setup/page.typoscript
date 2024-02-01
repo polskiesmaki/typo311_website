@@ -18,6 +18,8 @@ page {
         main = EXT:vt11/Resources/Public/JavaScript/main.js
 
     }
+
+    bodyTagAdd = class="is-preload"
 }
 
 

@@ -1,5 +1,5 @@
 <?php
-class partial_Header_All_24bf27110a650f85b62ecbfa2aa21cca04fa0438 extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
+class partial_Header_All_a0de8024f4beb642fa344f898117b03e1b7135aa extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
     public function getLayoutName(\TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface $renderingContext) {
         return (string)'';
     }
@@ -75,154 +75,176 @@ $arguments5 = [
 $output8 = '';
 
 $output8 .= '
-        <header>
-            ';
-// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper
-$renderChildrenClosure10 = function() use ($renderingContext) {
-return NULL;
-};
+        <header';
 // Rendering ViewHelper TYPO3Fluid\Fluid\ViewHelpers\IfViewHelper
-$output13 = '';
 
-$output13 .= 'ce-headline-';
-
-$output13 .= $renderingContext->getVariableProvider()->getByPath('data.header_position');
-
-$array14 = [
-'0' => $renderingContext->getVariableProvider()->getByPath('data.header_position'),
+$array10 = [
+'0' => $renderingContext->getVariableProvider()->getByPath('data.frame_class'),
+'1' => '==100',
 ];
 
-$expression15 = function($context) {return TYPO3Fluid\Fluid\Core\Parser\BooleanParser::convertNodeToBoolean($context["node0"]);};
+$expression11 = function($context) {return (TYPO3Fluid\Fluid\Core\Parser\BooleanParser::convertNodeToBoolean($context["node0"]) == 100);};
 
-$arguments12 = [
-'then' => $output13,
+$arguments9 = [
+'then' => ' class="major"',
 'else' => NULL,
 'condition' => TYPO3Fluid\Fluid\Core\Parser\SyntaxTree\BooleanNode::convertToBoolean(
-    $expression15(TYPO3Fluid\Fluid\Core\Parser\SyntaxTree\BooleanNode::gatherContext($renderingContext, $array14)),
+    $expression11(TYPO3Fluid\Fluid\Core\Parser\SyntaxTree\BooleanNode::gatherContext($renderingContext, $array10)),
     $renderingContext
 ),
 ];
 
-$array11 = [
+$output8 .= TYPO3Fluid\Fluid\ViewHelpers\IfViewHelper::renderStatic($arguments9, static fn() => '', $renderingContext)
+;
+
+$output8 .= '>
+            ';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper
+$renderChildrenClosure13 = function() use ($renderingContext) {
+return NULL;
+};
+// Rendering ViewHelper TYPO3Fluid\Fluid\ViewHelpers\IfViewHelper
+$output16 = '';
+
+$output16 .= 'ce-headline-';
+
+$output16 .= $renderingContext->getVariableProvider()->getByPath('data.header_position');
+
+$array17 = [
+'0' => $renderingContext->getVariableProvider()->getByPath('data.header_position'),
+];
+
+$expression18 = function($context) {return TYPO3Fluid\Fluid\Core\Parser\BooleanParser::convertNodeToBoolean($context["node0"]);};
+
+$arguments15 = [
+'then' => $output16,
+'else' => NULL,
+'condition' => TYPO3Fluid\Fluid\Core\Parser\SyntaxTree\BooleanNode::convertToBoolean(
+    $expression18(TYPO3Fluid\Fluid\Core\Parser\SyntaxTree\BooleanNode::gatherContext($renderingContext, $array17)),
+    $renderingContext
+),
+];
+
+$array14 = [
 'header' => $renderingContext->getVariableProvider()->getByPath('data.header'),
 'layout' => $renderingContext->getVariableProvider()->getByPath('data.header_layout'),
-'positionClass' => TYPO3Fluid\Fluid\ViewHelpers\IfViewHelper::renderStatic($arguments12, static fn() => '', $renderingContext)
+'positionClass' => TYPO3Fluid\Fluid\ViewHelpers\IfViewHelper::renderStatic($arguments15, static fn() => '', $renderingContext)
 ,
 'link' => $renderingContext->getVariableProvider()->getByPath('data.header_link'),
 'default' => $renderingContext->getVariableProvider()->getByPath('settings.defaultHeaderType'),
 ];
 
-$arguments9 = [
+$arguments12 = [
 'section' => NULL,
 'partial' => 'Header/Header',
 'delegate' => NULL,
-'arguments' => $array11,
+'arguments' => $array14,
 'optional' => false,
 'default' => NULL,
 'contentAs' => NULL,
 'debug' => true,
 ];
 
-$output8 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments9, $renderChildrenClosure10, $renderingContext);
+$output8 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments12, $renderChildrenClosure13, $renderingContext);
 
 $output8 .= '
             ';
 // Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper
-$renderChildrenClosure17 = function() use ($renderingContext) {
+$renderChildrenClosure20 = function() use ($renderingContext) {
 return NULL;
 };
 // Rendering ViewHelper TYPO3Fluid\Fluid\ViewHelpers\IfViewHelper
-$output20 = '';
+$output23 = '';
 
-$output20 .= 'ce-headline-';
+$output23 .= 'ce-headline-';
 
-$output20 .= $renderingContext->getVariableProvider()->getByPath('data.header_position');
+$output23 .= $renderingContext->getVariableProvider()->getByPath('data.header_position');
 
-$array21 = [
+$array24 = [
 '0' => $renderingContext->getVariableProvider()->getByPath('data.header_position'),
 ];
 
-$expression22 = function($context) {return TYPO3Fluid\Fluid\Core\Parser\BooleanParser::convertNodeToBoolean($context["node0"]);};
+$expression25 = function($context) {return TYPO3Fluid\Fluid\Core\Parser\BooleanParser::convertNodeToBoolean($context["node0"]);};
 
-$arguments19 = [
-'then' => $output20,
+$arguments22 = [
+'then' => $output23,
 'else' => NULL,
 'condition' => TYPO3Fluid\Fluid\Core\Parser\SyntaxTree\BooleanNode::convertToBoolean(
-    $expression22(TYPO3Fluid\Fluid\Core\Parser\SyntaxTree\BooleanNode::gatherContext($renderingContext, $array21)),
+    $expression25(TYPO3Fluid\Fluid\Core\Parser\SyntaxTree\BooleanNode::gatherContext($renderingContext, $array24)),
     $renderingContext
 ),
 ];
 
-$array18 = [
+$array21 = [
 'subheader' => $renderingContext->getVariableProvider()->getByPath('data.subheader'),
 'layout' => $renderingContext->getVariableProvider()->getByPath('data.header_layout'),
-'positionClass' => TYPO3Fluid\Fluid\ViewHelpers\IfViewHelper::renderStatic($arguments19, static fn() => '', $renderingContext)
+'positionClass' => TYPO3Fluid\Fluid\ViewHelpers\IfViewHelper::renderStatic($arguments22, static fn() => '', $renderingContext)
 ,
 'default' => $renderingContext->getVariableProvider()->getByPath('settings.defaultHeaderType'),
 ];
 
-$arguments16 = [
+$arguments19 = [
 'section' => NULL,
 'partial' => 'Header/SubHeader',
 'delegate' => NULL,
-'arguments' => $array18,
+'arguments' => $array21,
 'optional' => false,
 'default' => NULL,
 'contentAs' => NULL,
 'debug' => true,
 ];
 
-$output8 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments16, $renderChildrenClosure17, $renderingContext);
+$output8 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments19, $renderChildrenClosure20, $renderingContext);
 
 $output8 .= '
             ';
 // Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper
-$renderChildrenClosure24 = function() use ($renderingContext) {
+$renderChildrenClosure27 = function() use ($renderingContext) {
 return NULL;
 };
 // Rendering ViewHelper TYPO3Fluid\Fluid\ViewHelpers\IfViewHelper
-$output27 = '';
+$output30 = '';
 
-$output27 .= 'ce-headline-';
+$output30 .= 'ce-headline-';
 
-$output27 .= $renderingContext->getVariableProvider()->getByPath('data.header_position');
+$output30 .= $renderingContext->getVariableProvider()->getByPath('data.header_position');
 
-$array28 = [
+$array31 = [
 '0' => $renderingContext->getVariableProvider()->getByPath('data.header_position'),
 ];
 
-$expression29 = function($context) {return TYPO3Fluid\Fluid\Core\Parser\BooleanParser::convertNodeToBoolean($context["node0"]);};
+$expression32 = function($context) {return TYPO3Fluid\Fluid\Core\Parser\BooleanParser::convertNodeToBoolean($context["node0"]);};
 
-$arguments26 = [
-'then' => $output27,
+$arguments29 = [
+'then' => $output30,
 'else' => NULL,
 'condition' => TYPO3Fluid\Fluid\Core\Parser\SyntaxTree\BooleanNode::convertToBoolean(
-    $expression29(TYPO3Fluid\Fluid\Core\Parser\SyntaxTree\BooleanNode::gatherContext($renderingContext, $array28)),
+    $expression32(TYPO3Fluid\Fluid\Core\Parser\SyntaxTree\BooleanNode::gatherContext($renderingContext, $array31)),
     $renderingContext
 ),
 ];
 
-$array25 = [
+$array28 = [
 'date' => $renderingContext->getVariableProvider()->getByPath('data.date'),
-'positionClass' => TYPO3Fluid\Fluid\ViewHelpers\IfViewHelper::renderStatic($arguments26, static fn() => '', $renderingContext)
+'positionClass' => TYPO3Fluid\Fluid\ViewHelpers\IfViewHelper::renderStatic($arguments29, static fn() => '', $renderingContext)
 ,
 ];
 
-$arguments23 = [
+$arguments26 = [
 'section' => NULL,
 'partial' => 'Header/Date',
 'delegate' => NULL,
-'arguments' => $array25,
+'arguments' => $array28,
 'optional' => false,
 'default' => NULL,
 'contentAs' => NULL,
 'debug' => true,
 ];
 
-$output8 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments23, $renderChildrenClosure24, $renderingContext);
+$output8 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments26, $renderChildrenClosure27, $renderingContext);
 
 $output8 .= '
-        </header>
+            </header>
     ';
 return $output8;
 },

@@ -1,0 +1,1 @@
+a:2:{s:23:"copyToClipboard.success";a:1:{i:0;a:2:{s:6:"source";s:19:"Copied to clipboard";s:6:"target";s:29:"In die Zwischenablage kopiert";}}s:21:"copyToClipboard.error";a:1:{i:0;a:2:{s:6:"source";s:32:"Could not be copied to clipboard";s:6:"target";s:42:"Fehler beim Kopieren in die Zwischenablage";}}}

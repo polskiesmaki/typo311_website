@@ -1512,4 +1512,18 @@ $GLOBALS['TYPO3_CONF_VARS']['BE']['toolbarItems'][1435433114] = WorkspaceSelecto
 }
 
 
+/**
+ * Extension: vt11
+ * File: /var/www/html/public/typo3conf/ext/vt11/ext_localconf.php
+ */
+
+namespace {
+
+defined('TYPO3_MODE') || die('Access denied.');
+
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addUserTSConfig('@import "EXT:vt11/Configuration/TSconfig/User_general.tsconfig"');
+}
+
+
 #

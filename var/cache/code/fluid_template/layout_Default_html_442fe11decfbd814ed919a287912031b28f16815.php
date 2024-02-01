@@ -1,5 +1,5 @@
 <?php
-class layout_Default_html_b35142ecfd2debc6f33a2b9cb6b3242f9d8fd37a extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
+class layout_Default_html_442fe11decfbd814ed919a287912031b28f16815 extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
     public function getLayoutName(\TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface $renderingContext) {
         return (string)'';
     }
@@ -79,13 +79,6 @@ $arguments3 = [
 $output0 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments3, $renderChildrenClosure4, $renderingContext);
 
 $output0 .= '
-				<ul class="icons">
-					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
-					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
-				</ul>
 			</header>
 
 			';
