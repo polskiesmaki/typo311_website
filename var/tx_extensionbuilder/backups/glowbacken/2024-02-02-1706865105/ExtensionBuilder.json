@@ -1,0 +1,53 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [
+            {
+                "actions": {
+                    "controllerActionCombinations": ""
+                },
+                "description": "Das Super Modul",
+                "key": "glowbacken",
+                "mainModule": "web",
+                "name": "Glowacki Backend",
+                "tabLabel": ""
+            }
+        ],
+        "description": "Die Super Backeendextension",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 11.5.0-11.5.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "generateDocumentationTemplate": false,
+            "generateEditorConfig": false,
+            "generateEmptyGitRepository": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "11.5.0-11.5.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "glowbacken",
+        "name": "Glowacki Backendext",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "",
+                "email": "",
+                "name": "Dennis Glowacki",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "GlowBackend"
+    },
+    "wires": [],
+    "storagePath": "\/var\/www\/html\/Packages\/vt11\/",
+    "log": {
+        "last_modified": "2024-02-02 09:09",
+        "extension_builder_version": "v11.0.11",
+        "be_user": "Dennis Glowacki (1)"
+    }
+}

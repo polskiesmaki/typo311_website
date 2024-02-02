@@ -1,0 +1,52 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "This extension shows a paginated product overview including a simple single view",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 11.5.0-11.5.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "generateDocumentationTemplate": false,
+            "generateEditorConfig": false,
+            "generateEmptyGitRepository": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "11.5.0-11.5.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "productoverview",
+        "name": "Product Overview",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "",
+                "email": "",
+                "name": "Dennis Glowacki",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "",
+                    "noncacheableActions": ""
+                },
+                "description": "",
+                "key": "products",
+                "name": "Products"
+            }
+        ],
+        "vendorName": "ProductOverwiew"
+    },
+    "wires": [],
+    "storagePath": "\/var\/www\/html\/Packages\/vt11\/",
+    "log": {
+        "last_modified": "2024-02-02 08:27",
+        "extension_builder_version": "v11.0.11",
+        "be_user": "Dennis Glowacki (1)"
+    }
+}

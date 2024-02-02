@@ -3,7 +3,7 @@
         'name' => '__root__',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'd7e3268debac54ce2cfc04c608148e4e63f26c7c',
+        'reference' => '0920951de2a70cc95c32efac3973f4e797c4c018',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         '__root__' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'd7e3268debac54ce2cfc04c608148e4e63f26c7c',
+            'reference' => '0920951de2a70cc95c32efac3973f4e797c4c018',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -142,6 +142,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'friendsoftypo3/extension-builder' => array(
+            'pretty_version' => 'v11.0.11',
+            'version' => '11.0.11.0',
+            'reference' => '9a500dbb4c5cf9f5311f75e1e280cd358054e425',
+            'type' => 'typo3-cms-extension',
+            'install_path' => __DIR__ . '/../../public/typo3conf/ext/extension_builder',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'friendsoftypo3/frontend-editing' => array(
             'pretty_version' => '4.0.8',
             'version' => '4.0.8.0',
@@ -166,6 +175,15 @@
             'reference' => 'b5b786b672a5219660ccd62e901847caffcb5d98',
             'type' => 'typo3-cms-extension',
             'install_path' => __DIR__ . '/../../public/typo3conf/ext/vt11',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'glowbackend/glowbacken' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'd557d3d9f8dbcf8e58ccf90fdb8a9b4836aa264f',
+            'type' => 'typo3-cms-extension',
+            'install_path' => __DIR__ . '/../../public/typo3conf/ext/glowbacken',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -301,6 +319,15 @@
             'reference' => 'bd84b629c8de41aa2ae82c067c955e06f1b00240',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpstan/phpdoc-parser',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'productoverwiew/productoverview' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '1aa0f347e7df35d3448710d0330b17ec50c98d37',
+            'type' => 'typo3-cms-extension',
+            'install_path' => __DIR__ . '/../../public/typo3conf/ext/productoverview',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -784,16 +811,34 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'typo3-ter/extension-builder' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => 'v11.0.11',
+            ),
+        ),
         'typo3-ter/frontend-editing' => array(
             'dev_requirement' => false,
             'replaced' => array(
                 0 => '4.0.8',
             ),
         ),
+        'typo3-ter/glowbacken' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => 'dev-master',
+            ),
+        ),
         'typo3-ter/news' => array(
             'dev_requirement' => false,
             'replaced' => array(
                 0 => '11.3.0',
+            ),
+        ),
+        'typo3-ter/productoverview' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => 'dev-master',
             ),
         ),
         'typo3-ter/typo3-console' => array(

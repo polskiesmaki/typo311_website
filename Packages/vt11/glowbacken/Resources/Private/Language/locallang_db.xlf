@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:glowbacken/Resources/Private/Language/locallang_db.xlf" date="2024-02-02T09:18:49Z" product-name="glowbacken">
+		<header/>
+		<body>
+			<trans-unit id="tx_glowbacken_domain_model_test" resname="tx_glowbacken_domain_model_test">
+				<source>Test</source>
+			</trans-unit>
+			<trans-unit id="tx_glowbacken_domain_model_test.description" resname="tx_glowbacken_domain_model_test.description">
+				<source>Test</source>
+			</trans-unit>
+			<trans-unit id="tx_glowbacken_domain_model_test.products" resname="tx_glowbacken_domain_model_test.products">
+				<source>Products</source>
+			</trans-unit>
+			<trans-unit id="tx_glowbacken_domain_model_test.products.description" resname="tx_glowbacken_domain_model_test.products.description">
+				<source>Products</source>
+			</trans-unit>
+			<trans-unit id="tx_glowbacken_domain_model_products" resname="tx_glowbacken_domain_model_products">
+				<source>Products</source>
+			</trans-unit>
+			<trans-unit id="tx_glowbacken_domain_model_products.description" resname="tx_glowbacken_domain_model_products.description">
+				<source>Products</source>
+			</trans-unit>
+			<trans-unit id="tx_glowbacken_domain_model_products.product" resname="tx_glowbacken_domain_model_products.product">
+				<source>Product</source>
+			</trans-unit>
+			<trans-unit id="tx_glowbacken_domain_model_products.product.description" resname="tx_glowbacken_domain_model_products.product.description">
+				<source>Product</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

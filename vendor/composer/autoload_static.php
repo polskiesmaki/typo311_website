@@ -134,6 +134,7 @@ class ComposerStaticInitbf68f52c31af5abdc1ea93f26c52e759
             'Psr\\EventDispatcher\\' => 20,
             'Psr\\Container\\' => 14,
             'Psr\\Cache\\' => 10,
+            'ProductOverwiew\\Productoverview\\' => 32,
             'PhpParser\\' => 10,
             'PHPStan\\PhpDocParser\\' => 21,
         ),
@@ -151,12 +152,14 @@ class ComposerStaticInitbf68f52c31af5abdc1ea93f26c52e759
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
+            'GlowBackend\\Glowbacken\\' => 23,
             'GeorgRinger\\News\\' => 17,
         ),
         'E' => 
         array (
             'ErrorReporting\\' => 15,
             'Egulias\\EmailValidator\\' => 23,
+            'EBT\\ExtensionBuilder\\' => 21,
         ),
         'D' => 
         array (
@@ -530,6 +533,10 @@ class ComposerStaticInitbf68f52c31af5abdc1ea93f26c52e759
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
         ),
+        'ProductOverwiew\\Productoverview\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/public/typo3conf/ext/productoverview/Classes',
+        ),
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
@@ -563,6 +570,10 @@ class ComposerStaticInitbf68f52c31af5abdc1ea93f26c52e759
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
+        'GlowBackend\\Glowbacken\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/public/typo3conf/ext/glowbacken/Classes',
+        ),
         'GeorgRinger\\News\\' => 
         array (
             0 => __DIR__ . '/../..' . '/public/typo3conf/ext/news/Classes',
@@ -574,6 +585,10 @@ class ComposerStaticInitbf68f52c31af5abdc1ea93f26c52e759
         'Egulias\\EmailValidator\\' => 
         array (
             0 => __DIR__ . '/..' . '/egulias/email-validator/src',
+        ),
+        'EBT\\ExtensionBuilder\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/public/typo3conf/ext/extension_builder/Classes',
         ),
         'Doctrine\\Instantiator\\' => 
         array (

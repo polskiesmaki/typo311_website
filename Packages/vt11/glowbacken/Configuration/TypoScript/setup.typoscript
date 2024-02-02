@@ -1,0 +1,15 @@
+
+# Module configuration
+module.tx_glowbacken_web_glowbackenglowbacken {
+    persistence {
+        storagePid = {$module.tx_glowbacken_glowbacken.persistence.storagePid}
+    }
+    view {
+        templateRootPaths.0 = EXT:glowbacken/Resources/Private/Backend/Templates/
+        templateRootPaths.1 = {$module.tx_glowbacken_glowbacken.view.templateRootPath}
+        partialRootPaths.0 = EXT:glowbacken/Resources/Private/Backend/Partials/
+        partialRootPaths.1 = {$module.tx_glowbacken_glowbacken.view.partialRootPath}
+        layoutRootPaths.0 = EXT:glowbacken/Resources/Private/Backend/Layouts/
+        layoutRootPaths.1 = {$module.tx_glowbacken_glowbacken.view.layoutRootPath}
+    }
+}

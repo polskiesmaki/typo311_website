@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:productoverview/Resources/Private/Language/locallang.xlf" date="2024-02-02T08:33:58Z" product-name="productoverview">
+		<header/>
+		<body>
+			<trans-unit id="tx_productoverview_domain_model_product" resname="tx_productoverview_domain_model_product">
+				<source>Product</source>
+			</trans-unit>
+			<trans-unit id="tx_productoverview_domain_model_product.description" resname="tx_productoverview_domain_model_product.description">
+				<source>Product</source>
+			</trans-unit>
+			<trans-unit id="tx_productoverview_domain_model_product.title" resname="tx_productoverview_domain_model_product.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_productoverview_domain_model_product.title.description" resname="tx_productoverview_domain_model_product.title.description">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_productoverview_domain_model_product.price" resname="tx_productoverview_domain_model_product.price">
+				<source>Price</source>
+			</trans-unit>
+			<trans-unit id="tx_productoverview_domain_model_product.price.description" resname="tx_productoverview_domain_model_product.price.description">
+				<source>Price</source>
+			</trans-unit>
+			<trans-unit id="tx_productoverview_domain_model_product.categories" resname="tx_productoverview_domain_model_product.categories">
+				<source>Categories</source>
+			</trans-unit>
+			<trans-unit id="tx_productoverview_domain_model_product.categories.description" resname="tx_productoverview_domain_model_product.categories.description">
+				<source>
+
+</source>
+			</trans-unit>
+			<trans-unit id="tx_productoverview_domain_model_category" resname="tx_productoverview_domain_model_category">
+				<source>Category</source>
+			</trans-unit>
+			<trans-unit id="tx_productoverview_domain_model_category.description" resname="tx_productoverview_domain_model_category.description">
+				<source>Category</source>
+			</trans-unit>
+			<trans-unit id="tx_productoverview_domain_model_category.category" resname="tx_productoverview_domain_model_category.category">
+				<source>Category</source>
+			</trans-unit>
+			<trans-unit id="tx_productoverview_domain_model_category.category.description" resname="tx_productoverview_domain_model_category.category.description">
+				<source>Category</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

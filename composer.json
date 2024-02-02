@@ -40,7 +40,10 @@
         "glowacki/vt11": "^1.0",
         "georgringer/news": "^11.3",
         "brotkrueml/typo3-feed-generator": "^0.6.0",
-        "friendsoftypo3/frontend-editing": "^4.0"
+        "friendsoftypo3/frontend-editing": "^4.0",
+        "friendsoftypo3/extension-builder": "^11.0",
+        "productoverwiew/productoverview": "@dev",
+        "glowbackend/glowbacken": "@dev"
     },
     "config": {
         "allow-plugins": {
@@ -52,6 +55,14 @@
         "vt11": {
             "type": "path",
             "url": "./Packages/vt11"
+        },
+        "productoverview": {
+            "type": "path",
+            "url": "./Packages/vt11/productoverview"
+        },
+        "glowbacken": {
+            "type": "path",
+            "url": "./Packages/vt11/glowbacken"
         }
     }
 }

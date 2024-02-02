@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:glowbacken/Resources/Private/Language/locallang_csh_tx_glowbacken_domain_model_test.xlf" date="2024-02-02T09:18:49Z" product-name="glowbacken">
+		<header/>
+		<body>
+			<trans-unit id="products.description" resname="products.description">
+				<source>products</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

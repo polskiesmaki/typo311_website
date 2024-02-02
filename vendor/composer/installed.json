@@ -955,6 +955,84 @@
             "install-path": "../enshrined/svg-sanitize"
         },
         {
+            "name": "friendsoftypo3/extension-builder",
+            "version": "v11.0.11",
+            "version_normalized": "11.0.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfTYPO3/extension_builder.git",
+                "reference": "9a500dbb4c5cf9f5311f75e1e280cd358054e425"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfTYPO3/extension_builder/zipball/9a500dbb4c5cf9f5311f75e1e280cd358054e425",
+                "reference": "9a500dbb4c5cf9f5311f75e1e280cd358054e425",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "nikic/php-parser": "^4.10.4",
+                "php": "^7.4 || ^8.0",
+                "typo3/cms-backend": "^11.4",
+                "typo3/cms-core": "^11.4"
+            },
+            "replace": {
+                "typo3-ter/extension-builder": "self.version"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.18",
+                "roave/security-advisories": "dev-latest",
+                "sebastian/diff": "^3.0",
+                "typo3/cms-frontend": "^11.4",
+                "typo3/cms-install": "^11.4",
+                "typo3/coding-standards": "^0.3.0",
+                "typo3/testing-framework": "^6.11"
+            },
+            "time": "2023-10-18T07:38:08+00:00",
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "extension_builder",
+                    "app-dir": ".Build",
+                    "ignore-as-root": false,
+                    "web-dir": ".Build/Web"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "EBT\\ExtensionBuilder\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Nico de Haen",
+                    "role": "Developer"
+                },
+                {
+                    "name": "extension_builder Development Team",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Tool to kickstart and maintain TYPO3 extensions",
+            "homepage": "https://extensions.typo3.org/extension/extension_builder",
+            "keywords": [
+                "extension",
+                "extension_builder",
+                "typo3"
+            ],
+            "support": {
+                "docs": "https://docs.typo3.org/p/friendsoftypo3/extension-builder/main/en-us/",
+                "issues": "https://github.com/FriendsOfTYPO3/extension_builder/issues",
+                "source": "https://github.com/FriendsOfTYPO3/extension_builder"
+            },
+            "install-path": "../../public/typo3conf/ext/extension_builder"
+        },
+        {
             "name": "friendsoftypo3/frontend-editing",
             "version": "4.0.8",
             "version_normalized": "4.0.8.0",
@@ -1155,6 +1233,62 @@
                 "relative": true
             },
             "install-path": "../../public/typo3conf/ext/vt11"
+        },
+        {
+            "name": "glowbackend/glowbacken",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./Packages/vt11/glowbacken",
+                "reference": "d557d3d9f8dbcf8e58ccf90fdb8a9b4836aa264f"
+            },
+            "require": {
+                "typo3/cms-core": "^11.5"
+            },
+            "replace": {
+                "typo3-ter/glowbacken": "self.version"
+            },
+            "require-dev": {
+                "typo3/testing-framework": "^6.9.0"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "web-dir": ".Build/Web",
+                    "extension-key": "glowbacken"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "GlowBackend\\Glowbacken\\": "Classes"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "GlowBackend\\Glowbacken\\Tests\\": "Tests"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "TYPO3\\TestingFramework\\Composer\\ExtensionTestEnvironment::prepare"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Dennis Glowacki",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Die Super Backeendextension",
+            "transport-options": {
+                "relative": true
+            },
+            "install-path": "../../public/typo3conf/ext/glowbacken"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -2138,6 +2272,62 @@
                 "source": "https://github.com/phpstan/phpdoc-parser/tree/1.25.0"
             },
             "install-path": "../phpstan/phpdoc-parser"
+        },
+        {
+            "name": "productoverwiew/productoverview",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./Packages/vt11/productoverview",
+                "reference": "1aa0f347e7df35d3448710d0330b17ec50c98d37"
+            },
+            "require": {
+                "typo3/cms-core": "^11.5"
+            },
+            "replace": {
+                "typo3-ter/productoverview": "self.version"
+            },
+            "require-dev": {
+                "typo3/testing-framework": "^6.9.0"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "web-dir": ".Build/Web",
+                    "extension-key": "productoverview"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ProductOverwiew\\Productoverview\\": "Classes"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "ProductOverwiew\\Productoverview\\Tests\\": "Tests"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "TYPO3\\TestingFramework\\Composer\\ExtensionTestEnvironment::prepare"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Dennis Glowacki",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This extension shows a paginated product overview including a simple single view",
+            "transport-options": {
+                "relative": true
+            },
+            "install-path": "../../public/typo3conf/ext/productoverview"
         },
         {
             "name": "psr/cache",
