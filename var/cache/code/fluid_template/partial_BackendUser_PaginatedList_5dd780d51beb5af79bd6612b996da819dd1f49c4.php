@@ -11,6 +11,7 @@ class partial_BackendUser_PaginatedList_5dd780d51beb5af79bd6612b996da819dd1f49c4
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

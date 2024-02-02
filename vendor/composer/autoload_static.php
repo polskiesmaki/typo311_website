@@ -71,6 +71,7 @@ class ComposerStaticInitbf68f52c31af5abdc1ea93f26c52e759
             'TYPO3\\CMS\\Impexp\\' => 17,
             'TYPO3\\CMS\\Frontend\\' => 19,
             'TYPO3\\CMS\\FrontendLogin\\' => 24,
+            'TYPO3\\CMS\\FrontendEditing\\' => 26,
             'TYPO3\\CMS\\Form\\' => 15,
             'TYPO3\\CMS\\Fluid\\' => 16,
             'TYPO3\\CMS\\FluidStyledContent\\' => 29,
@@ -170,6 +171,7 @@ class ComposerStaticInitbf68f52c31af5abdc1ea93f26c52e759
         ),
         'B' => 
         array (
+            'Brotkrueml\\FeedGenerator\\' => 25,
             'Base32\\' => 7,
             'BaconQrCode\\' => 12,
         ),
@@ -297,6 +299,10 @@ class ComposerStaticInitbf68f52c31af5abdc1ea93f26c52e759
         'TYPO3\\CMS\\FrontendLogin\\' => 
         array (
             0 => __DIR__ . '/../..' . '/public/typo3/sysext/felogin/Classes',
+        ),
+        'TYPO3\\CMS\\FrontendEditing\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/public/typo3conf/ext/frontend_editing/Classes',
         ),
         'TYPO3\\CMS\\Form\\' => 
         array (
@@ -600,6 +606,10 @@ class ComposerStaticInitbf68f52c31af5abdc1ea93f26c52e759
         'DASPRiD\\Enum\\' => 
         array (
             0 => __DIR__ . '/..' . '/dasprid/enum/src',
+        ),
+        'Brotkrueml\\FeedGenerator\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/public/typo3conf/ext/feed_generator/Classes',
         ),
         'Base32\\' => 
         array (

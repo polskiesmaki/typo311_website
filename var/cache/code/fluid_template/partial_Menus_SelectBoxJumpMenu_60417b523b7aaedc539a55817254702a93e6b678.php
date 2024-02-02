@@ -11,6 +11,7 @@ class partial_Menus_SelectBoxJumpMenu_60417b523b7aaedc539a55817254702a93e6b678 e
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

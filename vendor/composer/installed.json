@@ -58,6 +58,86 @@
             "install-path": "../bacon/bacon-qr-code"
         },
         {
+            "name": "brotkrueml/typo3-feed-generator",
+            "version": "v0.6.0",
+            "version_normalized": "0.6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brotkrueml/typo3-feed-generator.git",
+                "reference": "0ada0b082192901f23429302576238b5b5a33e66"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brotkrueml/typo3-feed-generator/zipball/0ada0b082192901f23429302576238b5b5a33e66",
+                "reference": "0ada0b082192901f23429302576238b5b5a33e66",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "php": ">=8.1",
+                "typo3/cms-core": "^11.5 || ^12.0"
+            },
+            "require-dev": {
+                "brotkrueml/coding-standards": "~3.0.0",
+                "brotkrueml/t3docs-codesnippets-standalone": "dev-main@dev",
+                "ergebnis/composer-normalize": "~2.29.0",
+                "jiripudil/phpstan-sealed-classes": "^1.0",
+                "php-coveralls/php-coveralls": "^2.5",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan": "1.9.2",
+                "phpunit/phpunit": "^9.5.23",
+                "rector/rector": "0.15.0",
+                "symfony/yaml": "^5.4 || ^6.1",
+                "symplify/phpstan-rules": "^11.1",
+                "typo3/cms-lowlevel": "^11.5 || ^12.0"
+            },
+            "suggest": {
+                "typo3/cms-lowlevel": "Display available feeds and extensions in Configuration module"
+            },
+            "time": "2022-12-05T08:18:39+00:00",
+            "type": "typo3-cms-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "0.6.x-dev"
+                },
+                "typo3/cms": {
+                    "app-dir": ".Build",
+                    "extension-key": "feed_generator",
+                    "web-dir": ".Build/web"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Brotkrueml\\FeedGenerator\\": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Müller",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Generator for Atom, JSON and RSS feeds in TYPO3",
+            "keywords": [
+                "TYPO3 CMS",
+                "TYPO3 Extension",
+                "atom",
+                "feed",
+                "json feed",
+                "rss"
+            ],
+            "support": {
+                "issues": "https://github.com/brotkrueml/typo3-feed-generator/issues",
+                "source": "https://github.com/brotkrueml/typo3-feed-generator"
+            },
+            "install-path": "../../public/typo3conf/ext/feed_generator"
+        },
+        {
             "name": "christian-riesen/base32",
             "version": "1.6.0",
             "version_normalized": "1.6.0.0",
@@ -873,6 +953,77 @@
                 "source": "https://github.com/darylldoyle/svg-sanitizer/tree/0.15.4"
             },
             "install-path": "../enshrined/svg-sanitize"
+        },
+        {
+            "name": "friendsoftypo3/frontend-editing",
+            "version": "4.0.8",
+            "version_normalized": "4.0.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfTYPO3/frontend_editing.git",
+                "reference": "25352da0585179bfefe44972c2bf9f64303b3bd0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfTYPO3/frontend_editing/zipball/25352da0585179bfefe44972c2bf9f64303b3bd0",
+                "reference": "25352da0585179bfefe44972c2bf9f64303b3bd0",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "^11.5",
+                "typo3/cms-rte-ckeditor": "^11.5",
+                "typo3/cms-viewpage": "^11.5"
+            },
+            "conflict": {
+                "typo3/class-alias-loader": "< 1.1.0",
+                "typo3/cms-feedit": "*"
+            },
+            "replace": {
+                "typo3-ter/frontend-editing": "self.version"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.15",
+                "helmich/typo3-typoscript-lint": "^2.0",
+                "nimut/testing-framework": "^6.0",
+                "phpunit/phpunit": "^8.5",
+                "squizlabs/php_codesniffer": "^3.3",
+                "typo3/minimal": "^11.5"
+            },
+            "time": "2023-10-26T05:45:09+00:00",
+            "type": "typo3-cms-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.x-dev"
+                },
+                "typo3/cms": {
+                    "extension-key": "frontend_editing",
+                    "cms-package-dir": "{$vendor-dir}/typo3/cms",
+                    "web-dir": ".build/public",
+                    "app-dir": ".build"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\FrontendEditing\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Enable editors to work with the content in the most intuitive way possible",
+            "homepage": "https://extensions.typo3.org/extension/frontend_editing/",
+            "keywords": [
+                "TYPO3 CMS",
+                "frontend editing"
+            ],
+            "support": {
+                "docs": "https://docs.typo3.org/p/friendsoftypo3/frontend-editing/main/en-us/",
+                "issues": "https://github.com/FriendsOfTYPO3/frontend_editing/issues",
+                "source": "https://github.com/FriendsOfTYPO3/frontend_editing"
+            },
+            "install-path": "../../public/typo3conf/ext/frontend_editing"
         },
         {
             "name": "georgringer/news",

@@ -11,6 +11,7 @@ class partial_DocHeader_989bf348edee983c89c6f73e2a2f0ce24332d1fd extends \TYPO3F
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

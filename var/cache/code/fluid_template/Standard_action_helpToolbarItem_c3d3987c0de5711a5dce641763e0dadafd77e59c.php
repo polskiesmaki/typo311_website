@@ -11,6 +11,7 @@ class Standard_action_helpToolbarItem_c3d3987c0de5711a5dce641763e0dadafd77e59c e
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

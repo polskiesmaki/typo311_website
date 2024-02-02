@@ -11,6 +11,7 @@ class Standard_action_systemInformationDropDown_2496518c5ac211216a432c40d0798b03
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

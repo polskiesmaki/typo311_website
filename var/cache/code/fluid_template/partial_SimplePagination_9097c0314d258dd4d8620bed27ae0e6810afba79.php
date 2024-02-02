@@ -11,6 +11,7 @@ class partial_SimplePagination_9097c0314d258dd4d8620bed27ae0e6810afba79 extends 
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

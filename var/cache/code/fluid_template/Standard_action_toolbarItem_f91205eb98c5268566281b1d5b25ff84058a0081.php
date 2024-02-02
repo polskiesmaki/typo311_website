@@ -11,6 +11,7 @@ class Standard_action_toolbarItem_f91205eb98c5268566281b1d5b25ff84058a0081 exten
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

@@ -11,6 +11,7 @@ class partial_LanguageMenu_cce850a4e83b208b887768e8b9d55db4a87346ba extends \TYP
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

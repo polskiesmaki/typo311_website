@@ -11,6 +11,7 @@ class BackendUser_action_index_3014de4f561842fcac01ca233b85b4196109914e extends 
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

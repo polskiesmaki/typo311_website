@@ -39,6 +39,11 @@ return [
             'automaticInstallation' => '1',
             'offlineMode' => '0',
         ],
+        'frontend_editing' => [
+            'contentEditableWrapperTagName' => 'div',
+            'disableLoadingScreen' => '0',
+            'enablePlaceholders' => '1',
+        ],
         'indexed_search' => [
             'catdoc' => '/usr/bin/',
             'debugMode' => '0',

@@ -11,6 +11,7 @@ class Search_action_form_36c375badf4e4e29124e1a1943bfe138c62deed7 extends \TYPO3
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

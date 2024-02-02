@@ -36,6 +36,7 @@ return array(
     'TYPO3\\CMS\\Impexp\\' => array($baseDir . '/public/typo3/sysext/impexp/Classes'),
     'TYPO3\\CMS\\Frontend\\' => array($baseDir . '/public/typo3/sysext/frontend/Classes'),
     'TYPO3\\CMS\\FrontendLogin\\' => array($baseDir . '/public/typo3/sysext/felogin/Classes'),
+    'TYPO3\\CMS\\FrontendEditing\\' => array($baseDir . '/public/typo3conf/ext/frontend_editing/Classes'),
     'TYPO3\\CMS\\Form\\' => array($baseDir . '/public/typo3/sysext/form/Classes'),
     'TYPO3\\CMS\\Fluid\\' => array($baseDir . '/public/typo3/sysext/fluid/Classes'),
     'TYPO3\\CMS\\FluidStyledContent\\' => array($baseDir . '/public/typo3/sysext/fluid_styled_content/Classes'),
@@ -111,6 +112,7 @@ return array(
     'Doctrine\\Common\\Annotations\\' => array($vendorDir . '/doctrine/annotations/lib/Doctrine/Common/Annotations'),
     'Doctrine\\Common\\' => array($vendorDir . '/doctrine/event-manager/src'),
     'DASPRiD\\Enum\\' => array($vendorDir . '/dasprid/enum/src'),
+    'Brotkrueml\\FeedGenerator\\' => array($baseDir . '/public/typo3conf/ext/feed_generator/Classes'),
     'Base32\\' => array($vendorDir . '/christian-riesen/base32/src'),
     'BaconQrCode\\' => array($vendorDir . '/bacon/bacon-qr-code/src'),
 );

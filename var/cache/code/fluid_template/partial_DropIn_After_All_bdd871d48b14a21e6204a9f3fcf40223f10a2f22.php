@@ -11,6 +11,7 @@ class partial_DropIn_After_All_bdd871d48b14a21e6204a9f3fcf40223f10a2f22 extends 
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

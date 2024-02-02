@@ -11,6 +11,7 @@ class partial_Footer_e4193cf673f84d9714b552e3ddcd7a7c9a9a7d60 extends \TYPO3Flui
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

@@ -11,6 +11,7 @@ class partial_Header_Date_9ac772216b5f5f9b1b72674c25f4419643c0177a extends \TYPO
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

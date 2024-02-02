@@ -11,6 +11,7 @@ class Standard_action_index_c6499f9c3afaf9f5954c3e37e2a178281862f6ee extends \TY
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

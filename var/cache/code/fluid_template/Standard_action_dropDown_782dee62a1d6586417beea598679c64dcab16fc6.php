@@ -11,6 +11,7 @@ class Standard_action_dropDown_782dee62a1d6586417beea598679c64dcab16fc6 extends 
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

@@ -11,6 +11,7 @@ class Standard_action_userToolbarItemDropDown_42d2090c6500f5f92c61bf88a64f08cc99
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

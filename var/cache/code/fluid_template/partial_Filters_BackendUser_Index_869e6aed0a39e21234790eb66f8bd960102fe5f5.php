@@ -11,6 +11,7 @@ class partial_Filters_BackendUser_Index_869e6aed0a39e21234790eb66f8bd960102fe5f5
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

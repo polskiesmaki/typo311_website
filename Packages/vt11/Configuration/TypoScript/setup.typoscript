@@ -1,1 +1,3 @@
 @import "EXT:vt11/Configuration/TypoScript/Setup/*.typoscript"
+
+config.admPanel = 1

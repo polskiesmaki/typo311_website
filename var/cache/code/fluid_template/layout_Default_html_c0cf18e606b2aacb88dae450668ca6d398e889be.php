@@ -11,6 +11,7 @@ class layout_Default_html_c0cf18e606b2aacb88dae450668ca6d398e889be extends \TYPO
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

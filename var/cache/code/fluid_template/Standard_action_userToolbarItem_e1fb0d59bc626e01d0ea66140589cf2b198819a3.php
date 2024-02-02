@@ -11,6 +11,7 @@ class Standard_action_userToolbarItem_e1fb0d59bc626e01d0ea66140589cf2b198819a3 e
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

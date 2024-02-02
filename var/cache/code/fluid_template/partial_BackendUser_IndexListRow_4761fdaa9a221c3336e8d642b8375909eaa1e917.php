@@ -11,6 +11,7 @@ class partial_BackendUser_IndexListRow_4761fdaa9a221c3336e8d642b8375909eaa1e917 
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

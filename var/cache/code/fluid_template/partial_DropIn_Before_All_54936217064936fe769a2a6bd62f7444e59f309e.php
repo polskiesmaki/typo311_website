@@ -11,6 +11,7 @@ class partial_DropIn_Before_All_54936217064936fe769a2a6bd62f7444e59f309e extends
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

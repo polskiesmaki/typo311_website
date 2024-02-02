@@ -11,6 +11,7 @@ class partial_MainMenu_f0e68ef5f10366b355caea70ae01af7b60b7dec3 extends \TYPO3Fl
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

@@ -38,7 +38,9 @@
         "typo3/minimal": "^11",
         "helhum/typo3-console": "^7.1",
         "glowacki/vt11": "^1.0",
-        "georgringer/news": "^11.3"
+        "georgringer/news": "^11.3",
+        "brotkrueml/typo3-feed-generator": "^0.6.0",
+        "friendsoftypo3/frontend-editing": "^4.0"
     },
     "config": {
         "allow-plugins": {

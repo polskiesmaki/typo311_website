@@ -11,6 +11,7 @@ class Standard_action_systemInformationToolbarItem_c6cc875106e0221aa777d055aca18
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

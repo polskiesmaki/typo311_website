@@ -11,6 +11,7 @@ class Standard_action_clearCacheToolbarItem_034f7d37f24a27279ebbe3dca0551af85b98
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

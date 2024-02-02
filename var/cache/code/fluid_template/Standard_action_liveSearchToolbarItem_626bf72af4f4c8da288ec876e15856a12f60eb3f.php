@@ -11,6 +11,7 @@ class Standard_action_liveSearchToolbarItem_626bf72af4f4c8da288ec876e15856a12f60
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

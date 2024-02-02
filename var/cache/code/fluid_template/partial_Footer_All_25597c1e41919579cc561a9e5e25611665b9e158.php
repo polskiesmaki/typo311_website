@@ -11,6 +11,7 @@ class partial_Footer_All_25597c1e41919579cc561a9e5e25611665b9e158 extends \TYPO3
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

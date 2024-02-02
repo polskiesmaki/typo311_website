@@ -11,6 +11,7 @@ class partial_ButtonBar_9b505dbf457ffa127b555a7eaf7b5567bf798c75 extends \TYPO3F
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

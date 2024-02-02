@@ -11,6 +11,7 @@ class Standard_action_module_ed82192bd7b1fbdc7569c71a99c41fd4fc528386 extends \T
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

@@ -11,6 +11,7 @@ class Standard_action_clearCacheToolbarItemDropDown_a03aa36c1a272e23356425019ff0
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

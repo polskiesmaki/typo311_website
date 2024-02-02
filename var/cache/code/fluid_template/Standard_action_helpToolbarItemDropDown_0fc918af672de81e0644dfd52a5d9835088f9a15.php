@@ -11,6 +11,7 @@ class Standard_action_helpToolbarItemDropDown_0fc918af672de81e0644dfd52a5d983508
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

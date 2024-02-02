@@ -11,6 +11,7 @@ class partial_Logo_009c403260ee090cd8d9567bf314e9bcc3250dba extends \TYPO3Fluid\
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

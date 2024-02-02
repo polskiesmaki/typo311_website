@@ -11,6 +11,7 @@ class partial_Header_Header_0c4790503a88edb9d0f9c5c3e1ee2557a7781ab2 extends \TY
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

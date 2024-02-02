@@ -11,6 +11,7 @@ class partial_Form_d9ceaef91b777b4afc4f4b072eb2f098bdef0470 extends \TYPO3Fluid\
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (

@@ -11,6 +11,7 @@ class partial_ToolbarItem_eeefec23a83d0219f33bc8efabacaa984f38d97d extends \TYPO
   'core' => 
   array (
     0 => 'TYPO3\\CMS\\Core\\ViewHelpers',
+    1 => 'TYPO3\\CMS\\FrontendEditing\\ViewHelpers',
   ),
   'f' => 
   array (
