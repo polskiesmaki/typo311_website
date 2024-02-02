@@ -1094,7 +1094,7 @@ return array (
         'prependAtCopy' => 'LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.prependAtCopy',
         'cruser_id' => 'cruser_id',
         'editlock' => 'editlock',
-        'useColumnsForDefaultValues' => 'doktype,fe_group,hidden',
+        'useColumnsForDefaultValues' => 'doktype,fe_group',
         'languageField' => 'sys_language_uid',
         'transOrigPointerField' => 'l10n_parent',
         'transOrigDiffSourceField' => 'l10n_diffsource',
@@ -4704,7 +4704,7 @@ return array (
             'type' => 'input',
             'renderType' => 'inputDateTime',
             'eval' => 'date,int',
-            'default' => 1706865176,
+            'default' => 1706868479,
           ),
         ),
         'content_modification_date' => 
@@ -4718,7 +4718,7 @@ return array (
             'type' => 'input',
             'renderType' => 'inputDateTime',
             'eval' => 'date,int',
-            'default' => 1706865176,
+            'default' => 1706868479,
           ),
         ),
         'note' => 
@@ -14019,12 +14019,158 @@ return array (
         ),
       ),
     ),
+    'tx_glowbacken_domain_model_products' => 
+    array (
+      'ctrl' => 
+      array (
+        'title' => 'LLL:EXT:glowbacken/Resources/Private/Language/locallang_db.xlf:tx_glowbacken_domain_model_products',
+        'label' => 'product',
+        'tstamp' => 'tstamp',
+        'crdate' => 'crdate',
+        'cruser_id' => 'cruser_id',
+        'versioningWS' => true,
+        'languageField' => 'sys_language_uid',
+        'transOrigPointerField' => 'l10n_parent',
+        'transOrigDiffSourceField' => 'l10n_diffsource',
+        'delete' => 'deleted',
+        'enablecolumns' => 
+        array (
+          'disabled' => 'hidden',
+          'starttime' => 'starttime',
+          'endtime' => 'endtime',
+        ),
+        'searchFields' => 'product',
+        'iconfile' => 'EXT:glowbacken/Resources/Public/Icons/tx_glowbacken_domain_model_products.gif',
+      ),
+      'types' => 
+      array (
+        1 => 
+        array (
+          'showitem' => 'product, --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:language, sys_language_uid, l10n_parent, l10n_diffsource, --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access, hidden, starttime, endtime',
+        ),
+      ),
+      'columns' => 
+      array (
+        'sys_language_uid' => 
+        array (
+          'exclude' => true,
+          'label' => 'LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.language',
+          'config' => 
+          array (
+            'type' => 'language',
+          ),
+        ),
+        'l10n_parent' => 
+        array (
+          'displayCond' => 'FIELD:sys_language_uid:>:0',
+          'label' => 'LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.l18n_parent',
+          'config' => 
+          array (
+            'type' => 'select',
+            'renderType' => 'selectSingle',
+            'default' => 0,
+            'items' => 
+            array (
+              0 => 
+              array (
+                0 => '',
+                1 => 0,
+              ),
+            ),
+            'foreign_table' => 'tx_glowbacken_domain_model_products',
+            'foreign_table_where' => 'AND {#tx_glowbacken_domain_model_products}.{#pid}=###CURRENT_PID### AND {#tx_glowbacken_domain_model_products}.{#sys_language_uid} IN (-1,0)',
+          ),
+        ),
+        'l10n_diffsource' => 
+        array (
+          'config' => 
+          array (
+            'type' => 'passthrough',
+          ),
+        ),
+        'hidden' => 
+        array (
+          'exclude' => true,
+          'label' => 'LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.visible',
+          'config' => 
+          array (
+            'type' => 'check',
+            'renderType' => 'checkboxToggle',
+            'items' => 
+            array (
+              0 => 
+              array (
+                0 => '',
+                1 => '',
+                'invertStateDisplay' => true,
+              ),
+            ),
+          ),
+        ),
+        'starttime' => 
+        array (
+          'exclude' => true,
+          'label' => 'LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.starttime',
+          'config' => 
+          array (
+            'type' => 'input',
+            'renderType' => 'inputDateTime',
+            'eval' => 'datetime,int',
+            'default' => 0,
+            'behaviour' => 
+            array (
+              'allowLanguageSynchronization' => true,
+            ),
+          ),
+        ),
+        'endtime' => 
+        array (
+          'exclude' => true,
+          'label' => 'LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.endtime',
+          'config' => 
+          array (
+            'type' => 'input',
+            'renderType' => 'inputDateTime',
+            'eval' => 'datetime,int',
+            'default' => 0,
+            'range' => 
+            array (
+              'upper' => 2145916800,
+            ),
+            'behaviour' => 
+            array (
+              'allowLanguageSynchronization' => true,
+            ),
+          ),
+        ),
+        'product' => 
+        array (
+          'exclude' => true,
+          'label' => 'LLL:EXT:glowbacken/Resources/Private/Language/locallang_db.xlf:tx_glowbacken_domain_model_products.product',
+          'description' => 'LLL:EXT:glowbacken/Resources/Private/Language/locallang_db.xlf:tx_glowbacken_domain_model_products.product.description',
+          'config' => 
+          array (
+            'type' => 'input',
+            'size' => 30,
+            'eval' => 'trim',
+            'default' => '',
+          ),
+        ),
+        'test' => 
+        array (
+          'config' => 
+          array (
+            'type' => 'passthrough',
+          ),
+        ),
+      ),
+    ),
     'tx_glowbacken_domain_model_test' => 
     array (
       'ctrl' => 
       array (
         'title' => 'LLL:EXT:glowbacken/Resources/Private/Language/locallang_db.xlf:tx_glowbacken_domain_model_test',
-        'label' => 'uid',
+        'label' => 'products',
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
         'cruser_id' => 'cruser_id',
@@ -14046,7 +14192,7 @@ return array (
       array (
         1 => 
         array (
-          'showitem' => ', --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:language, sys_language_uid, l10n_parent, l10n_diffsource, --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access, hidden, starttime, endtime',
+          'showitem' => 'products, --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:language, sys_language_uid, l10n_parent, l10n_diffsource, --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access, hidden, starttime, endtime',
         ),
       ),
       'columns' => 
@@ -14140,6 +14286,27 @@ return array (
             'behaviour' => 
             array (
               'allowLanguageSynchronization' => true,
+            ),
+          ),
+        ),
+        'products' => 
+        array (
+          'exclude' => true,
+          'label' => 'LLL:EXT:glowbacken/Resources/Private/Language/locallang_db.xlf:tx_glowbacken_domain_model_test.products',
+          'description' => 'LLL:EXT:glowbacken/Resources/Private/Language/locallang_db.xlf:tx_glowbacken_domain_model_test.products.description',
+          'config' => 
+          array (
+            'type' => 'inline',
+            'foreign_table' => 'tx_glowbacken_domain_model_products',
+            'foreign_field' => 'test',
+            'maxitems' => 9999,
+            'appearance' => 
+            array (
+              'collapseAll' => 0,
+              'levelLinksPosition' => 'top',
+              'showSynchronizationLink' => 1,
+              'showPossibleLocalizationRecords' => 1,
+              'showAllLocalizationLink' => 1,
             ),
           ),
         ),

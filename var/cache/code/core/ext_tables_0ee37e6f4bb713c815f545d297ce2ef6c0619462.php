@@ -1304,6 +1304,7 @@ defined('TYPO3') || die();
         '',
         [
             \GlowBackend\Glowbacken\Controller\TestController::class => 'list, show',
+            \GlowBackend\Glowbacken\Controller\ProductsController::class => 'list, show',
             
         ],
         [
@@ -1315,6 +1316,9 @@ defined('TYPO3') || die();
 
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addLLrefForTCAdescr('tx_glowbacken_domain_model_test', 'EXT:glowbacken/Resources/Private/Language/locallang_csh_tx_glowbacken_domain_model_test.xlf');
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::allowTableOnStandardPages('tx_glowbacken_domain_model_test');
+
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addLLrefForTCAdescr('tx_glowbacken_domain_model_products', 'EXT:glowbacken/Resources/Private/Language/locallang_csh_tx_glowbacken_domain_model_products.xlf');
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::allowTableOnStandardPages('tx_glowbacken_domain_model_products');
 })();
 }
 

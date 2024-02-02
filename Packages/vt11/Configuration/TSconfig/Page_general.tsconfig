@@ -23,6 +23,11 @@ TCEFORM {
 }
 
 TCEMAIN.permissions {
+    // allow group 1 = all users to edit content
     group = show,editcontent,edit,new,delete
+    // allow group 1 = all users to edit content in the specific page
     groupid = 1
 }
+
+# Show newly created pages by default
+TCAdefaults.pages.hidden = 0
