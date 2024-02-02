@@ -8,7 +8,11 @@ page {
     includeCSS {
         main = EXT:vt11/Resources/Public/Css/main.css
         custom = EXT:vt11/Resources/Public/Css/custom.css
+        print = EXT:vt11/Resources/Public/Css/print.css
+        print.media = print
     }
+        
+   
 
     includeJSFooter {
         jquery = EXT:vt11/Resources/Public/JavaScript/jquery.min.js
@@ -18,6 +22,7 @@ page {
         main = EXT:vt11/Resources/Public/JavaScript/main.js
 
     }
+
 
     bodyTagAdd = class="is-preload"
 }

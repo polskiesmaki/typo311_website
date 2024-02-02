@@ -1,5 +1,5 @@
 <?php
-class Standard_action_bullets_c32ba4506b4143dd2f9211aef1e38c4985d5712e extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
+class Standard_action_text_647bfd951526d753118bbb2e7a024e864b42091a extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
     public function getLayoutName(\TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface $renderingContext) {
         return (string)'Default';
     }
@@ -33,28 +33,16 @@ public function section_62bce9422ff2d14f69ab80a154510232fc8a9afd(\TYPO3Fluid\Flu
 $output0 .= '
 
     ';
-// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\HtmlViewHelper
 $renderChildrenClosure2 = function() use ($renderingContext) {
-return NULL;
+return $renderingContext->getVariableProvider()->getByPath('data.bodytext');
 };
-$output3 = '';
-
-$output3 .= 'Bullets/Type-';
-
-$output3 .= $renderingContext->getVariableProvider()->getByPath('data.bullets_type');
 
 $arguments1 = [
-'section' => NULL,
-'partial' => $output3,
-'delegate' => NULL,
-'arguments' => $renderingContext->getVariableProvider()->getAll(),
-'optional' => false,
-'default' => NULL,
-'contentAs' => NULL,
-'debug' => true,
+'parseFuncTSPath' => 'lib.parseFunc_RTE',
 ];
 
-$output0 .= TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper::renderStatic($arguments1, $renderChildrenClosure2, $renderingContext);
+$output0 .= TYPO3\CMS\Fluid\ViewHelpers\Format\HtmlViewHelper::renderStatic($arguments1, $renderChildrenClosure2, $renderingContext);
 
 $output0 .= '
 
@@ -66,23 +54,23 @@ $output0 .= '
  * Main Render function
  */
 public function render(\TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface $renderingContext) {
-    $output4 = '';
+    $output3 = '';
 
-$output4 .= '
+$output3 .= '
 ';
 
-$output4 .= '';
+$output3 .= '';
 
-$output4 .= '
+$output3 .= '
 ';
 
-$output4 .= '';
+$output3 .= '';
 
-$output4 .= '
+$output3 .= '
 
 ';
 
-    return $output4;
+    return $output3;
 }
 
 }

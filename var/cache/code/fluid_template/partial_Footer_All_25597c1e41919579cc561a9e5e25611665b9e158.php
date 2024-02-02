@@ -22,10 +22,6 @@ class partial_Footer_All_25597c1e41919579cc561a9e5e25611665b9e158 extends \TYPO3
   array (
     0 => 'TYPO3\\CMS\\Form\\ViewHelpers',
   ),
-  'ce' => 
-  array (
-    0 => 'TYPO3\\CMS\\FluidStyledContent\\ViewHelpers',
-  ),
 ));
     }
     /**
